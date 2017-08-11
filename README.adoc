@@ -81,10 +81,10 @@ include::complete/src/main/java/hello/Application.java[]
 ----
 
 In the above `Application`, notice how we added the
-{SpringComponentScanAnnotation}[`@ComponentScan`] 
+{SpringComponentScanAnnotation}[`@ComponentScan`]
 annotation at the main class level and the
 {YarnComponentAnnotation}[`@YarnComponent`] annotation on the
-inner `HelloPojo` class. 
+inner `HelloPojo` class.
 
 `HelloPojo` class is a simple `POJO` in a sense that it doesn't extend any Spring YARN base classes. What we did in this class:
 
@@ -176,6 +176,19 @@ modification_time=1395501405412; access_time=0; owner=hadoop; group=supergroup; 
 
 == Summary
 
-Congratulations! You've just developed a Spring YARN application! 
+Congratulations! You've just developed a Spring YARN application!
+
+== See Also
+
+The following guides may also be helpful:
+
+=== https://spring.io/guides/gs/yarn-basic-single/[Simple Single Project YARN Application]
+
+* https://spring.io/guides/gs/yarn-basic/[Simple YARN Application]
+* https://spring.io/guides/gs/yarn-testing/[Testing YARN Application]
+* https://spring.io/guides/gs/yarn-batch-processing/[Batch YARN Application]
+* https://spring.io/guides/gs/yarn-batch-restart/[Restartable Batch YARN Application]
+* https://spring.io/guides/gs/maven-yarn/[Building Spring YARN Projects with Maven]
+* https://spring.io/guides/gs/gradle-yarn/[Building Spring YARN Projects with Gradle]
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
